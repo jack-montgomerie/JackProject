@@ -1,0 +1,137 @@
+body {
+  padding-top: 25px;
+  background-color: black;
+  font-family: "Sans Serif", sans-serif;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+  text-align: left;
+  color: white;
+  padding-left: 40px;
+  padding-top: 25px;
+  font-size: 40px;
+}
+
+nav {
+  padding-left: 40px; /* Same as h1 left padding */
+  display: flex;
+  justify-content: start;
+  padding-top: 10px;
+  background-color: black;
+}
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-logo {
+  height: 20px;
+  width: 20px;
+}
+
+nav a:hover {
+  margin-right: 20px;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#about:hover {
+  background-color: rgb(74, 74, 74);
+  color: white;
+}
+
+#EasyRent:hover {
+  background-color: rgb(74, 74, 74);
+  color: white;
+}
+
+nav a#twitter:hover {
+  background-color: rgb(74, 74, 74);
+  color: white;
+}
+
+h2 {
+  text-align: left;
+  color: white;
+  padding-left: 40px;
+  padding-top: 5px;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.text-logo-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+p {
+  text-align: left;
+  color: white;
+  padding-left: 0px;
+  padding-top: 1px;
+}
+
+.twitter-logo {
+  margin-left: 10px; /* Adjust this to change spacing between text and logo */
+  height: 20px;
+  width: 20px;
+}
+
+.inline-link {
+  color: rgb(99, 187, 176);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  p {
+    padding-left: 25px;
+  }
+}
+
+.content-wrapper {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav a {
+    margin-bottom: 10px;
+  }
+}
